@@ -1,0 +1,72 @@
+/* Base Styles */
+body {
+    height: 100%;
+    background-color: #0d0d0d;
+    font-family: 'Lexend', 'Segoe UI', sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 2em 2em;
+}
+
+ul {
+    list-style:none;
+}
+
+h1, h2, p, li {
+    color: #e8e8e8;
+    margin-left: 30vw;
+}
+
+h2 {
+    margin-top: 50px;
+    margin-bottom: 5px;
+}
+
+.normal-text {
+    font-size: large;
+}
+
+#name {
+    margin-top: 50px;
+    font-size: 35pt;
+}
+
+#bio {
+    margin-top: 0;
+    margin-right: 30vw;
+}
+
+.icons {    
+    vertical-align: middle;
+    transition: transform 0.1s ease-in;
+}
+
+.icons:hover {
+    transform: scale(1.1);
+}
+
+.hyperlinks {
+    color: #1c50fd;
+    display: inline-block;
+    margin-right: 15px;
+    font-size: large;
+    transition: transform 0.1s ease-in;
+}
+
+.hyperlinks:hover {
+    transform: scale(1.1);
+}
+
+.hyperlinks:active {
+    transform: scale(0.9);
+}
+
+.hyperlinks:visited {
+    color: #8c2ed4;
+}
+
+#email-icon {
+    margin-left: 30vw;
+}
