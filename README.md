@@ -1,7 +1,7 @@
 # Elvis Lin: Portfolio
 A personal portfolio website built with HTML/CSS.
 
-Link: [linelv.github.io](linelv.github.io)
+Link: [linelv.github.io](https://linelv.github.io/)
 
 ## Built With
 * HTML5
