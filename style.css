@@ -1,17 +1,9 @@
-/* Base Styles */
+/* GENERAL STYLES */
+
 body {
     height: 100%;
     background-color: #0d0d0d;
     font-family: 'Lexend', 'Segoe UI', sans-serif;
-}
-
-.container {
-    margin: 0 auto;
-    padding: 2em 2em;
-}
-
-ul {
-    list-style:none;
 }
 
 h1, h2, p, li {
@@ -24,9 +16,22 @@ h2 {
     margin-bottom: 5px;
 }
 
-.normal-text {
+ul {
+    list-style:none;
+}
+
+/* SITE WIDE */
+
+.container {
+    margin: 0 auto;
+    padding: 2em 2em;
+}
+
+.normal-text { /* normal text refers to <p> and project descriptions */
     font-size: large;
 }
+
+/* ABOUT SECTION*/
 
 #name {
     margin-top: 50px;
@@ -37,6 +42,8 @@ h2 {
     margin-top: 0;
     margin-right: 30vw;
 }
+
+/* CONTACTS SECTION */
 
 .icons {    
     vertical-align: middle;
