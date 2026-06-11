@@ -7,6 +7,7 @@ Link: [linelv.github.io](https://linelv.github.io/)
 * HTML5
 * CSS3
 * Google Fonts (for Lexend)
+* UXWing.com (for icons)
 
 ## Sections
 * About

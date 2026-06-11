@@ -11,70 +11,79 @@
 </head>
 <body>
     <div class="container">
+        <header id="header">
+            <svg height="24" width="24" class="icons" id="light-mode-button">
+                <image height="24" width="24" href="./assets/sun-warm-icon.svg">
+            </svg>
+            <svg height="24" width="24" class="icons" id="dark-mode-button">
+                <image height="24" width="24" href="./assets/moon-icon.svg">
+            </svg>
+        </header>
 
-    <div id="title">
-        <h1 id="name">Elvis Lin</h1>
-    </div>
+        <div id="title">
+            <h1 id="name">Elvis Lin</h1>
+        </div>
     
-    <div id="about">
-        <h2>About</h2>
-        <p class="normal-text" id="bio">
-            I'm a junior at Roawn University studying Computing & Informatics (BA) with a minor in Professional & Technical Writing.
-            I'm interested in the data side of things: collecting and organizing it, and how to communicate clearly what the data is saying to people who don't want to read a spreadsheet.
-            What good is any data if you can't make sense of it?
-            <br>
-            <br>
-            I'm currently looking for an internship or any opportunities in the data science field. It matters to me because I want a career that helps me support my family.
-        </p>
+        <div id="about">
+            <h2 class="headings">About</h2>
+            <p class="normal-text" id="bio">
+                I'm a junior at Rowan University studying Computing & Informatics (BA) with a minor in Professional & Technical Writing.
+                I'm interested in the data side of things: collecting and organizing it, and how to communicate clearly what the data is saying to people who don't want to read a spreadsheet.
+                What good is any data if you can't make sense of it?
+                <br>
+                <br>
+                I'm currently looking for an internship or any opportunities in the data science field. It matters to me because I want a career that helps me support my family.
+            </p>
+        </div>
+
+        <div id="projects">
+            <h2 class="headings">Projects</h2>
+            <ul>
+                <li>
+                    <a class="hyperlinks" href="github.com">Project 1</a>
+                    <span class="normal-text">(m/d/year) Description</span>
+                </li>
+                <br>
+                <li>
+                    <a class="hyperlinks" href="github.com">Project 2</a>
+                    <span class="normal-text">(m/d/year) Description</span>
+                </li>
+            </ul>
+        </div>
+
+        <div id="contact">
+            <h2 class="headings">Contacts & Resume</h2>
+
+            <svg class="icons" id="email-icon" height="24" width="24">
+                <image height="24" width="24" href="./assets/email-envelope-white-icon.svg">
+            </svg>
+            <a class="hyperlinks" id="email-link" href="mailto:lelvislin@gmail.com">
+                eMail
+            </a>
+
+            <svg class="icons" height="24" width="24">
+                <image height="24" width="24" href="./assets/github-mark-white.svg">
+            </svg>
+            <a class="hyperlinks" id="github-link" href="https://github.com/linelv">
+                Github
+            </a>
+
+            <svg class="icons" height="24" width="24">
+                <image height="24" width="24" href="./assets/linkedin-app-white-icon.svg">
+                </svg>
+            <a class="hyperlinks" id="linkedin-link" href="https://www.linkedin.com/in/elvis-lin-28a471334/">
+                LinkedIn
+            </a>
+
+            <svg class="icons" height="24" width="24">
+                <image height="24" width="24" href="./assets/pdf-files-icon.svg" style="filter: invert();">
+            </svg>
+            <a class="hyperlinks" id="linkedin-link" href="./assets/Resume.pdf" download="LIN-ELVIS-RESUME">
+                Resume
+            </a>
+        </div>
+
     </div>
-
-    <div id="projects">
-        <h2>Projects</h2>
-        <ul>
-            <li>
-                <a class="hyperlinks" href="github.com">Project 1</a>
-                <span class="normal-text">(m/d/year) Description</span>
-            </li>
-            <br>
-            <li>
-                <a class="hyperlinks" href="github.com">Project 2</a>
-                <span class="normal-text">(m/d/year) Description</span>
-            </li>
-        </ul>
-    </div>
-
-    <div id="contact">
-        <h2>Contacts & Resume</h2>
-
-        <svg class="icons" id="email-icon" height="24" width="24">
-            <image height="24" width="24" href="./assets/email-envelope-white-icon.svg">
-        </svg>
-        <a class="hyperlinks" id="email-link" href="mailto:lelvislin@gmail.com">
-            eMail
-        </a>
-
-        <svg class="icons" height="24" width="24">
-            <image height="24" width="24" href="./assets/github-mark-white.svg">
-        </svg>
-        <a class="hyperlinks" id="github-link" href="https://github.com/linelv">
-            Github
-        </a>
-
-        <svg class="icons" height="24" width="24">
-            <image height="24" width="24" href="./assets/linkedin-app-white-icon.svg">
-        </svg>
-        <a class="hyperlinks" id="linkedin-link" href="https://www.linkedin.com/in/elvis-lin-28a471334/">
-            LinkedIn
-        </a>
-
-         <svg class="icons" height="24" width="24">
-            <image height="24" width="24" href="./assets/pdf-files-icon.svg" style="filter: invert();">
-        </svg>
-        <a class="hyperlinks" id="linkedin-link" href="./assets/Resume.pdf" download="LIN-ELVIS-RESUME">
-            Resume
-        </a>
-    </div>
-
-    </div>
+    <script type="module" src="./index.js" defer></script>
 </body>
 </html>

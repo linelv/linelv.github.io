@@ -2,7 +2,7 @@
 
 body {
     height: 100%;
-    background-color: #0d0d0d;
+    background: #0d0d0d;
     font-family: 'Lexend', 'Segoe UI', sans-serif;
 }
 
@@ -27,8 +27,19 @@ ul {
     padding: 2em 2em;
 }
 
-.normal-text { /* normal text refers to <p> and project descriptions */
-    font-size: large;
+/* HEADER */
+
+#header {
+    filter: invert();
+}
+
+#light-mode-button {
+    float: right;
+}
+
+#dark-mode-button {
+    float: right;
+    display: none;
 }
 
 /* ABOUT SECTION*/
@@ -38,9 +49,10 @@ ul {
     font-size: 35pt;
 }
 
-#bio {
+.normal-text { /* normal text refers to <p> and project descriptions */
     margin-top: 0;
     margin-right: 30vw;
+    font-size: large;
 }
 
 /* CONTACTS SECTION */
@@ -51,7 +63,7 @@ ul {
 }
 
 .icons:hover {
-    transform: scale(1.1);
+    transform: scale(1.3);
 }
 
 .hyperlinks {
