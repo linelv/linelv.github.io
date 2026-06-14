@@ -2,12 +2,12 @@
 
 body {
     height: 100%;
-    background: #0d0d0d;
+    background-color: var(--background-color);
     font-family: 'Lexend', 'Segoe UI', sans-serif;
 }
 
 h1, h2, p, li {
-    color: #e8e8e8;
+    color: var(--text-color);
     margin-left: 30vw;
 }
 
@@ -21,6 +21,11 @@ ul {
 }
 
 /* SITE WIDE */
+
+:root {
+    --background-color: #0d0d0d;
+    --text-color: #e8e8e8;
+}
 
 .container {
     margin: 0 auto;
