@@ -64,7 +64,12 @@ ul {
 
 #name {
     margin-top: 50px;
+    margin-bottom: 3px;
     font-size: 35pt;
+}
+
+#subtitle {
+    margin-top: 0px;
 }
 
 .normal-text { /* normal text refers to <p> and project descriptions */
