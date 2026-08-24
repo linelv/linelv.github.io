@@ -9,6 +9,7 @@ body {
 h1, h2, p, li {
     color: var(--text-color);
     margin-left: 30vw;
+    margin-right: 30vw;
 }
 
 h2 {
@@ -31,6 +32,7 @@ ul {
 .container {
     margin: 0 auto;
     padding: 2em 2em;
+    max-width: 100%;
 }
 
 /* HEADER */
@@ -74,7 +76,6 @@ ul {
 
 .normal-text { /* normal text refers to <p> and project descriptions */
     margin-top: 0;
-    margin-right: 30vw;
     font-size: large;
 }
 
