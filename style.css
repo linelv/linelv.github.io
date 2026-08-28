@@ -6,10 +6,16 @@ body {
     font-family: 'Lexend', 'Segoe UI', sans-serif;
 }
 
+div {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 20px;
+}
+
 h1, h2, p, li {
     color: var(--text-color);
-    margin-left: 30vw;
-    margin-right: 30vw;
+    margin-bottom: 0;
 }
 
 h2 {
@@ -27,12 +33,6 @@ ul {
     --background-color: #0d0d0d;
     --text-color: #e8e8e8;
     --icon-filter: none;
-}
-
-.container {
-    margin: 0 auto;
-    padding: 2em 2em;
-    max-width: 100%;
 }
 
 /* HEADER */
@@ -113,8 +113,4 @@ ul {
 
 .hyperlinks:visited {
     color: #8c2ed4;
-}
-
-#email-icon {
-    margin-left: 30vw;
 }
