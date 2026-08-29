@@ -89,14 +89,6 @@ ul {
     filter: var(--icon-filter);
 }
 
-.icons:hover {
-    transform: scale(1.1);
-}
-
-.icons:active {
-    transform: scale(0.9);
-}
-
 .hyperlinks {
     color: #1c50fd;
     display: inline-block;
