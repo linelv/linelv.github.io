@@ -83,6 +83,10 @@ ul {
 
 /* CONTACTS SECTION */
 
+#contacts {
+    margin-bottom: 20px;
+}
+
 .icons {    
     vertical-align: middle;
     transition: transform 0.1s ease;
