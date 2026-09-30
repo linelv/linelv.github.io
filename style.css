@@ -84,7 +84,12 @@ ul {
 /* CONTACTS SECTION */
 
 #contacts {
-    margin-bottom: 20px;
+    background-color: var(--background-color);
+    padding-bottom: 15px;
+    position: sticky;
+    bottom: 0;
+    width: 700px;
+    text-align: center;
 }
 
 .icons {    
