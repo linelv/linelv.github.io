@@ -1,5 +1,11 @@
 /* GENERAL STYLES */
 
+header {
+    position: sticky;
+    top: 0;
+    padding-top: 20px;
+}
+
 body {
     height: 100%;
     background-color: var(--background-color);
